@@ -1,2 +1,2 @@
 # CS284D
-Codes foe CS284
+Codes for CS284
