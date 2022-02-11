@@ -5,12 +5,12 @@ public class AnotherClass extends AClass {
         System.out.println("AnotherClass Constructor"); //constructor
     }
 
-    public boolean readFile(String s) {
-        return (s == ""); //method 3
-    }
+//    public boolean readFile(String s) {
+//        return (s == ""); //method 3
+//    }
 
     public boolean setValue(double i) {
-        System.out.println("AnotherClass"); // method 4
+//        System.out.println("AnotherClass"); // method 4
         return (i < 0);
     }
 

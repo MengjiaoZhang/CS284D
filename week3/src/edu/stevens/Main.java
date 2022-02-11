@@ -21,8 +21,8 @@ public class Main {
 //        AClass obj = new AnotherClass ();
 //        obj.setValue(3.0);
 
-//        AnotherClass obj = new AnotherClass ();
-//        obj.setValue(3.0);
+        AnotherClass obj = new AnotherClass ();
+        obj.setValue(3.0);
 
 //        AClass obj = new AnotherClass ();
 //        obj.setValue(3.0);

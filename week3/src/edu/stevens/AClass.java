@@ -10,7 +10,7 @@ public class AClass {
     }
 
     public boolean setValue(int i) {
-        System.out.println("AClass");
+//        System.out.println("AClass");
         return (i < 0);   // method 2
     }
 }
