@@ -14,7 +14,7 @@ public class JavaBasics {
 //
 //        System.out.println("My name is " + name);
 //        System.out.printf("My name is %s \n", name);
-//        System.out.printf("Test gpa is %.4f \n", gpa);
+//        System.out.printf("Test gpa is %.2f \n", gpa);
 
         /*
         %f -> double or float
@@ -24,13 +24,13 @@ public class JavaBasics {
         %b -> boolean
          */
 
-//        // CASTING & CONVERTING
+        // CASTING & CONVERTING
 //        System.out.println( (int)3.14 );
 //        System.out.println( (double)3 );
 //
 //        int intFromString = Integer.parseInt("20");
 //        double doubleFromString = Double.parseDouble("20.99");
-//
+////
 //        System.out.println(100 + intFromString);
 //        System.out.println(100 + doubleFromString);
 
@@ -61,9 +61,9 @@ public class JavaBasics {
 //        System.out.println(num);
 
         // Math class has useful math methods
-        System.out.println( Math.pow(2, 3) );
-        System.out.println( Math.sqrt(144) );
-        System.out.println( Math.round(2.7) );
+//        System.out.println( Math.pow(2, 3) );
+//        System.out.println( Math.sqrt(144) );
+//        System.out.println( Math.round(2.7) );
 
        // ARRAYS
 ////        int[] exampleNumbers = new int[6];
@@ -119,6 +119,7 @@ public class JavaBasics {
 //        for(int i = 0; i < 5; i++) {
 //            System.out.println(i);
 //        }
+
 //        int i = 0;
 //        for(; ;) {
 //            if (i < 5) {

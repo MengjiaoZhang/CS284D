@@ -18,23 +18,23 @@ public class Person {
 
     /* constructor method1 */
     public Person(String firstName, String lastName, int age) {
-        this.age = getAge(age);
+        this.age = age;
         this.firstName = firstName;
         this.lastName = lastName;
         Person.person_number++;
     }
 
     /* constructor method2 */
-    public Person(String firstName, String lastName, int birthYear, String ID) {
-        this.age = getAge(birthYear);
+    public Person(String firstName, String lastName, int age, String ID) {
+        this.age = age;
         this.firstName = firstName;
         this.lastName = lastName;
         this.IDNumber = ID;
         Person.person_number++;
     }
 
-    public int getAge(int age) {
-        return age;
+    public int getAge() {
+        return this.age;
     }
 
     public void setAge(int age) {
@@ -72,7 +72,7 @@ public class Person {
         Person sue = new Person("Sue", "Jones",
                                  17, "0001");
         System.out.println("The ID number of "+ sue.getName() + " is " + sue.IDNumber);
-        System.out.println("Age of " + sue.getName() + " is " + sue.age);
+        System.out.println("Age of " + sue.getName() + " is " + sue.getAge());
 //        System.out.println(Person.person_number);
 //        System.out.println(sam);
 //        if (sue.canVote()) {
