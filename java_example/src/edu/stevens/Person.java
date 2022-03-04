@@ -11,6 +11,7 @@ public class Person {
     /* the person's IDNumber: instance variable */
     private String IDNumber;
 
+    /* class variables */
     /* # persons = static variable */
     private static int person_number=0;
     /* The age at which a person can vote */
@@ -67,19 +68,21 @@ public class Person {
     }
 
     public static void main(String[] args) {
+//        System.out.println(sam.firstName);
         System.out.println(Person.VOTE_AGE);
         Person sam = new Person("Sam","Jones", 20);
         Person sue = new Person("Sue", "Jones",
                                  17, "0001");
         System.out.println("The ID number of "+ sue.getName() + " is " + sue.IDNumber);
         System.out.println("Age of " + sue.getName() + " is " + sue.getAge());
+
 //        System.out.println(Person.person_number);
 //        System.out.println(sam);
-//        if (sue.canVote()) {
-//            System.out.println(sue.getName() + " can vote");
-//        } else {
-//            System.out.println(sue.getName() + " cannot vote");
-//        }
+        if (sue.canVote()) {
+            System.out.println(sue.getName() + " can vote");
+        } else {
+            System.out.println(sue.getName() + " cannot vote");
+        }
 //
 //        Person sue1 = sue;
 //        System.out.println(sue);

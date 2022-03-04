@@ -14,7 +14,7 @@ public class JavaBasics {
 //
 //        System.out.println("My name is " + name);
 //        System.out.printf("My name is %s \n", name);
-//        System.out.printf("Test gpa is %.2f \n", gpa);
+//        System.out.printf("Test gpa is %.5f \n", gpa);
 
         /*
         %f -> double or float
@@ -30,7 +30,7 @@ public class JavaBasics {
 //
 //        int intFromString = Integer.parseInt("20");
 //        double doubleFromString = Double.parseDouble("20.99");
-////
+//////
 //        System.out.println(100 + intFromString);
 //        System.out.println(100 + doubleFromString);
 
@@ -44,14 +44,14 @@ public class JavaBasics {
 //        System.out.println( greeting.indexOf("llo") );
 //        System.out.println( greeting.indexOf("z") );
 //        System.out.println( greeting.substring(2) );
-//        System.out.println( greeting.substring(1,3) );
+//        System.out.println( greeting.substring(1,4) );
 
 
         // NUMBERS
 //        System.out.println( 2 * 3 ); // Basic Arithmetic: +, -, /, *
 //        System.out.println( 10 % 3 ); // Modulus Op. returns remainder
 //        System.out.println( 1 + 2 * 3 ); // order of operations
-//        System.out.println( 10 / 3.0 ); // int's and doubles
+//        System.out.println( 10 / 3 ); // int's and doubles
 //
 //        int num = 100;
 //        num += 100; // same as num = num + 100 +=, -=, /=, *=
